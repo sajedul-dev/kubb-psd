@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 0.8;
 }
 .container{
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 /* ================================ navbar start here ========================== */
@@ -338,7 +338,19 @@ nav{
 .about_wrapper{
     display: flex;
     column-gap: 10px;
+    position: relative;
 }
+.about_wrapper h1{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color: #444;
+}
+
 .about_me{
     width: 570px;
     display: flex;
@@ -346,7 +358,7 @@ nav{
 }
 .about_img{
     width: 200px;
-    height: 100%;
+    height: 280px;
     overflow: hidden;
 }
 .about_img img{
@@ -364,12 +376,48 @@ nav{
     box-shadow: 10px 10px 5px #aaaaaa;
 }
 .about_description p{
-    padding: 25px;
+    padding: 24px;
     color: var(--gray);
     font-size: 15px;
     font-weight: 300;
     font-family: 'Roboto Slab', serif;
     line-height: 22px;
+}
+.my_service{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.service_wrapper{
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+}
+.my-content h2{
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    color: #444;
+    font-family: 700;
+}
+.my-content p{
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+    color: #444;
+    line-height: 24px;
+}
+.my_service h1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color: #444;
 }
 /* ===================== footer part start here ========================= */
 
@@ -404,7 +452,6 @@ nav{
     font-family: 'Roboto Slab', serif;
     line-height: 30px;
     color: var(--white);
-
 }
 /* ================================= copywrite part start here ====================== */
 

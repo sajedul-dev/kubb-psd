@@ -1,0 +1,517 @@
+/* =================== extra small device ====================== */
+
+@media(max-width:575.98px){
+    /* =========================== navbar start here ======================== */
+    .nav-wrapper {
+        flex-direction: column;
+    }
+    .menu ul {
+        flex-direction: column;
+        row-gap: 25px;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .menu ul li a {
+        font-size: 13px;
+    }
+    /* =========================== navbar start here ======================== */
+
+    .banner-content h1 {
+        font-size: 27px;
+    }
+    .banner-content h2 {
+        font-size: 23px;
+        padding: 20px 0;
+    }
+    .banner-content p {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+    .banner-content {
+        padding-top: 100px;
+    }
+
+    /* =========================== service start here ======================== */
+
+    .service_heading h2 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .service_heading p {
+        font-size: 14px;
+        padding: 10px 0;
+        line-height: 20px;
+    }
+    .service_main {
+        flex-direction: column;
+    }
+    .service_item {
+        width: 100%;
+    }
+    /* =========================== instagram start here ======================== */
+    .instra-heading {
+        font-size: 14px;
+    }
+    .showup_wrapper {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .showup_item {
+        width: 100%;
+    }
+    .instra-heading::before {
+        display: none;
+    }
+    .instra-heading::after {
+        display: none;
+    }
+    /* =========================== journal start here ======================== */
+
+    .journal_item {
+        width: 100%;
+    }
+    .journal_wrapper {
+        row-gap: 25px;
+    }
+    .journal_item_head h3 {
+        padding: 25px 0;
+    }
+    .journal_action {
+        padding: 15px 0;
+        flex-direction: column;
+    }
+    .journal_action a {
+        padding: 10px 0;
+    }
+    .journal_reaction {
+        padding: 15px 0;
+    }
+
+    /* =========================== fasion part start here ======================== */
+
+    .about_wrapper {
+        flex-direction: column;
+    }
+    .about_wrapper h1 {
+        top: -35px;
+        left: 103px;
+    }
+    .about_me {
+        width: 100%;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .about_description {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 0 10px;
+    }
+    .about_description p {
+        padding: 15px 0;
+        line-height: 19px;
+        font-size: 13px;
+        color: #000;
+    }
+    .about_img {
+        width: 100%;
+    }
+    .service_wrapper {
+        flex-direction: column;
+    }
+    .my-content{
+        text-align: center;
+    }
+    .my_service {
+        margin-top: 55px;
+    }
+    .my_service h1 {
+        top: -32px;
+        left: 104px;
+    }
+
+    /* =========================== footer start here ======================== */
+    #footer {
+        padding: 25px 0;
+    }
+    .footer_wrapper {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .footer_main {
+        width: 100%;
+        text-align: center;
+        padding: 0 10px;
+    }
+    .footer_main p {
+        font-size: 13px;
+        line-height: 28px;
+    }
+
+    /* =================== copywrite part start here ================== */
+    #copy{
+        background-color: #03f8fc;
+    }
+    #copy p {
+        font-size: 13px;
+        color: #000;
+        font-weight: 700;
+    }
+}
+
+/* ======================= Small device ============== */
+
+@media(min-width:576px) and (max-width:767.98px){
+
+        /* =========================== navbar start here ======================== */
+        .nav-wrapper {
+            flex-direction: column;
+        }
+        .menu ul {
+            flex-direction: column;
+            row-gap: 25px;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .menu ul li a {
+            font-size: 13px;
+        }
+        /* =========================== navbar start here ======================== */
+    
+        .banner-content h1 {
+            font-size: 50px;
+        }
+        .banner-content h2 {
+            font-size: 35px;
+            padding: 20px 0;
+        }
+        .banner-content p {
+            font-size: 18px;
+            padding: 5px 0;
+        }
+        .banner-content {
+            padding-top: 100px;
+        }
+    
+        /* =========================== service start here ======================== */
+    
+        .service_heading h2 {
+            font-size: 24px;
+            line-height: 30px;
+        }
+        .service_heading p {
+            font-size: 18px;
+            padding: 10px 0;
+            line-height: 20px;
+        }
+        .service_main {
+            flex-direction: column;
+        }
+        .service_item {
+            width: 100%;
+        }
+        .service_content h3 {
+            font-size: 26px;
+        }
+        /* =========================== instagram start here ======================== */
+        .instra-heading {
+            font-size: 18px;
+        }
+        .showup_wrapper {
+            flex-direction: column;
+            row-gap: 20px;
+        }
+        .instra-heading {
+            font-size: 25px;
+            color: #000;
+        }
+        .journal_item_head p {
+            font-size: 16px;
+            color: #000;
+        }
+        .showup_item {
+            width: 100%;
+        }
+        .instra-heading::before {
+            display: none;
+        }
+        .instra-heading::after {
+            display: none;
+        }
+        /* ======================= journal part start here ====================== */
+    
+        .journal_item {
+            width: 100%;
+        }
+        .journal_item_details {
+            padding: 25px 0;
+            text-align: center;
+        }
+        .journal_action {
+            padding: 15px 0;
+            flex-direction: column;
+        }
+        .journal_action a {
+            padding: 10px 0;
+        }
+        .journal_reaction {
+            padding: 15px 0;
+        }
+        .journal_wrapper {
+            row-gap: 25px;
+        }
+        .journal_item_head h3 {
+            padding: 25px 0;
+        }
+        /* =========================== fasion part start here ======================== */
+    
+        .about_wrapper {
+            flex-direction: column;
+        }
+        .about_wrapper h1 {
+            top: -35px;
+            left: 103px;
+        }    
+        .about_me {
+            width: 100%;
+            flex-direction: column;
+            row-gap: 15px;
+        }
+        .about_description {
+            width: 100%;
+            height: auto;
+            text-align: center;
+            padding: 0 10px;
+        }
+        .about_description p {
+            padding: 15px 0;
+            line-height: 19px;
+            font-size: 13px;
+            color: #000;
+        }
+        .about_img {
+            width: 100%;
+        }
+        .my-content{
+            text-align: center;
+        }
+        .my_service {
+            margin-top: 55px;
+        }
+        .my_service h1 {
+            top: -32px;
+            left: 104px;
+        }
+    
+        /* =========================== footer start here ======================== */
+        #footer {
+            padding: 25px 0;
+        }
+        .footer_wrapper {
+            flex-direction: column;
+            row-gap: 15px;
+        }
+        .footer_main {
+            width: 100%;
+            text-align: center;
+            padding: 0 10px;
+        }
+        .footer_main p {
+            font-size: 13px;
+            line-height: 28px;
+        }
+    
+        /* =================== copywrite part start here ================== */
+        #copy{
+            background-color: #fcba03;
+        }
+        #copy p {
+            font-size: 18px;
+            color: #000;
+            font-weight: 700;
+        }
+    
+}
+
+/*=================== Medium device =================== */
+
+@media(min-width:768px) and (max-width:991.98px){
+
+        /* =========================== navbar start here ======================== */
+        .nav-wrapper {
+            flex-direction: column;
+        }
+        .menu ul {
+            flex-direction: column;
+            row-gap: 25px;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .menu ul li a {
+            font-size: 13px;
+        }
+        /* =========================== navbar start here ======================== */
+    
+        .banner-content h1 {
+            font-size: 50px;
+        }
+        .banner-content h2 {
+            font-size: 35px;
+            padding: 20px 0;
+        }
+        .banner-content p {
+            font-size: 18px;
+            padding: 5px 0;
+        }
+        .banner-content {
+            padding-top: 100px;
+        }
+    
+        /* =========================== service start here ======================== */
+    
+        .service_heading h2 {
+            font-size: 24px;
+            line-height: 30px;
+        }
+        .service_heading p {
+            font-size: 18px;
+            padding: 10px 0;
+            line-height: 20px;
+        }
+        .service_main {
+            flex-direction: column;
+        }
+        .service_item {
+            width: 100%;
+        }
+        .service_content h3 {
+            font-size: 26px;
+        }
+        /* =========================== instagram start here ======================== */
+        .instra-heading {
+            font-size: 18px;
+        }
+        .showup_wrapper {
+            flex-direction: column;
+            row-gap: 20px;
+        }
+        .instra-heading {
+            font-size: 25px;
+            color: #000;
+        }
+        .journal_item_head p {
+            font-size: 16px;
+            color: #000;
+        }
+        .showup_item {
+            width: 100%;
+        }
+        .instra-heading::before {
+            display: none;
+        }
+        .instra-heading::after {
+            display: none;
+        }
+        /* ======================= journal part start here ====================== */
+    
+        .journal_item {
+            width: 100%;
+        }
+        .journal_item_details {
+            padding: 25px 0;
+            text-align: center;
+        }
+        .journal_action {
+            padding: 15px 0;
+            flex-direction: column;
+        }
+        .journal_action a {
+            padding: 10px 0;
+        }
+        .journal_reaction {
+            padding: 15px 0;
+        }
+        .journal_wrapper {
+            row-gap: 25px;
+        }
+        .journal_item_head h3 {
+            padding: 25px 0;
+        }
+        /* =========================== fasion part start here ======================== */
+    
+        .about_wrapper {
+            flex-direction: column;
+        }
+        .about_wrapper h1 {
+            top: -35px;
+            left: 103px;
+        }    
+        .about_me {
+            width: 100%;
+            flex-direction: column;
+            row-gap: 15px;
+        }
+        .about_description {
+            width: 100%;
+            height: auto;
+            text-align: center;
+            padding: 0 10px;
+        }
+        .about_description p {
+            padding: 15px 0;
+            line-height: 19px;
+            font-size: 13px;
+            color: #000;
+        }
+        .about_img {
+            width: 100%;
+        }
+        .my-content{
+            text-align: center;
+        }
+        .my_service {
+            margin-top: 55px;
+        }
+        .my_service h1 {
+            top: -32px;
+            left: 104px;
+        }
+    
+    
+        /* =========================== footer start here ======================== */
+        #footer {
+            padding: 25px 0;
+        }
+        .footer_wrapper {
+            flex-direction: column;
+            row-gap: 15px;
+        }
+        .footer_main {
+            width: 100%;
+            text-align: center;
+            padding: 0 10px;
+        }
+        .footer_main p {
+            font-size: 13px;
+            line-height: 28px;
+        }
+    
+        /* =================== copywrite part start here ================== */
+        #copy{
+            background-color: #fcba03;
+        }
+        #copy p {
+            font-size: 18px;
+            color: #000;
+            font-weight: 700;
+        }
+
+}
+
+
+
+
+
+
+/* =========================== navbar start here ======================== */
+/* =========================== navbar start here ======================== */
