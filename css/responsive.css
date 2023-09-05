@@ -3,7 +3,22 @@
 @media(max-width:575.98px){
     /* =========================== navbar start here ======================== */
     .nav-wrapper {
-        flex-direction: column;
+        flex-direction: row;
+        position: relative;
+        padding: 0 10px;
+    }
+    .menu {
+        display: none;
+    }
+    .menu.toggle{
+        position: absolute;
+        display: flex;
+        top: 60px;
+        right: 10px;
+        background-color: blueviolet;
+        padding: 10px 25px;
+        border-radius: 8px;
+        transition: all linear 0.3s;
     }
     .menu ul {
         flex-direction: column;
@@ -165,7 +180,20 @@
 
         /* =========================== navbar start here ======================== */
         .nav-wrapper {
-            flex-direction: column;
+            flex-direction: row;
+            position: relative;
+            padding: 0 10px;
+        }
+        .menu {
+            display: none;
+        }
+        .menu.toggle{
+            position: absolute;
+            display: flex;
+            top: 60px;
+            right: 10px;
+            background-color: blueviolet;
+            padding: 15px 25px;
         }
         .menu ul {
             flex-direction: column;
@@ -339,16 +367,17 @@
 
         /* =========================== navbar start here ======================== */
         .nav-wrapper {
-            flex-direction: column;
+            flex-direction: row;
+            padding: 0 10px;
         }
         .menu ul {
-            flex-direction: column;
-            row-gap: 25px;
+            flex-direction: row;
+            column-gap: 25px;
             text-align: center;
             padding: 20px 0;
         }
-        .menu ul li a {
-            font-size: 13px;
+        #toggleMenu i{
+            display: none;
         }
         /* =========================== navbar start here ======================== */
     
@@ -508,10 +537,3 @@
 
 }
 
-
-
-
-
-
-/* =========================== navbar start here ======================== */
-/* =========================== navbar start here ======================== */
